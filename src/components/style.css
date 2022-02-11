@@ -1,0 +1,66 @@
+.App{
+    text-align: center;
+}
+.checkout{
+    padding-top: 10px;
+}
+.checkout-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin: 0;
+    color: rgba(0,0,0,0.7);
+}
+.checkout-price{
+    font-weight: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 95px;
+    margin: 0;
+    color: rgba(0,0,0,1);
+}
+.checkout-description{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: rgba(0,0,0,0.7);
+}
+.checkout-product-image{
+    width: 400px;
+}
+.checkout-button .text-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 4px;
+    margin: auto;
+    text-align: left;
+    margin-left: 16px;
+}
+.checkout-button .text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 130%;
+    margin: 0;
+    color: rgba(0,0,0,1);
+}
+.separator{
+    width: 300px;
+    height: 1px;
+    background: rgba(0,0,0,0.2);
+    margin: 20px auto;
+}
+.paypal{
+    display: grid;
+    gap: 20px;
+}
+.paypal-button-container{
+    width: fit-content;
+    margin: 0 auto;
+}
